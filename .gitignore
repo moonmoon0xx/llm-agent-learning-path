@@ -1,0 +1,73 @@
+# ==========================================
+# Python 通用忽略文件
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# 虚拟环境相关
+pip-log.txt
+pip-delete-this-directory.txt
+
+# 日志文件
+logs/
+*.log
+
+# 打包/构建目录
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ==========================================
+# IDE 配置文件（PyCharm / VS Code）
+# ==========================================
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ==========================================
+# 系统垃圾文件（Windows / Mac）
+# ==========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ==========================================
+# Jupyter Notebook
+# ==========================================
+.ipynb_checkpoints
+profile_default/
+ipython_config.py
+
+# ==========================================
+# 环境变量 / 密钥（非常重要）
+# ==========================================
+.env
+.env.local
+.env.*.local
